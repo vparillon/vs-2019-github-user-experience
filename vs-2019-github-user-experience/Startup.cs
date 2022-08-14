@@ -55,7 +55,7 @@ namespace vs_2019_github_user_experience
                 //  endpoints.MapRazorPages();
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("hello worlod");
+                    await context.Response.WriteAsync("hello first change");
                 });
             });
 
